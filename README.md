@@ -168,3 +168,39 @@ header h1{
     color: azure;
 }
 ```
+
+
+# 6). Membuat Navigasi
+
+**Contoh outputnya sebagai berikut:**
+
+![membuat_navigasi](img/navigasi.png)
+
+
+**Coding:**
+```css
+/* header */
+header{
+    padding: 20px;
+}
+header h1{
+    margin: 20px 10px;
+    color: azure;
+}
+/* navigasi */
+nav{
+    display: block;
+    background-color: indigo;
+}
+nav a{
+    padding: 15px 30px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover{
+    background-color: plum;
+```
