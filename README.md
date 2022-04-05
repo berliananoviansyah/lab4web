@@ -325,3 +325,22 @@ nav a:hover{
         </div>
     </aside>
 ```
+
+
+# 10). Mengatur Footer
+
+**Hasil outputnya adalah sebagai berikut:**
+
+![Membuat_footer](img/footer.png)
+
+**Coding:**
+```css
+/* Footer */
+footer{
+    clear: both;
+    background-color: purple;
+    padding: 20px;
+    color: aliceblue;
+}
+```
+

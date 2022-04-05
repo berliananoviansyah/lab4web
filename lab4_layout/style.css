@@ -109,3 +109,11 @@ nav a:hover{
     padding: 15px;
     line-height: 25px;
 }
+
+/* Footer */
+footer{
+    clear: both;
+    background-color: purple;
+    padding: 20px;
+    color: aliceblue;
+}
