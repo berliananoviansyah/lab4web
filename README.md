@@ -243,3 +243,85 @@ nav a:hover{
 ![membuat_heropanel](img/heropanel.png)
 
 
+# 8). Mengatur Layout Main dan SIdebar
+
+**Code CSS:**
+```css
+/* Main Content */
+#wrapper{
+    margin: 0;
+}
+#main{
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+/* Sidebar Area */
+#sidebar{
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+```
+
+
+# 9). Membuat Sidebar Widget
+
+**Hasil Outputnya adalah:**
+
+![Membuat_sidebar_widget](img/sidebarwidget.png)
+
+**Dengan Coding CSS:**
+```css
+/* Widget */
+.widget-box{
+    border: 1px solid aliceblue;
+    margin-bottom: 20px;
+}
+.widget-box .title{
+    padding: 10px 16px;
+    background-color: rgb(195, 68, 195);
+    color: lavender;
+}
+.widget-box ul{
+    list-style-type: none;
+}
+.widget-box li{
+    border-bottom: 1px solid aliceblue ;
+}
+.widget-box li a{
+    padding: 10px 16px;
+    color: darkslategray;
+    display: block;
+    text-decoration: none;
+}
+.widget-box li:hover a{
+    background-color: aliceblue;
+}
+.widget-box p{
+    padding: 15px;
+    line-height: 25px;
+}
+```
+
+**Coding HTML:**
+```html
+ <aside id="sidebar">
+        <div class="widget-box">
+            <h3 class="title">widget Header</h3>
+            <ul>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+                <li><a href="#">Widget Link</a></li>
+            </ul>
+        </div>
+        <div class="widget-box">
+            <h3 class="title">Widgwt Text</h3>
+            <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+                arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+                pharetra est nunc, nec pretium nunc pretium ac.</p>
+        </div>
+    </aside>
+```
