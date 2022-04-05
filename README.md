@@ -59,7 +59,7 @@ Pada pertemuan kali ini kita akan membahas bagaimana cara emembuat **Website Lay
 
 ***Hasil outputnya:***
 ![membuat_box_element](img/boxelement.png)
-# #). Mengatur Clearfix Element
+# 3). Mengatur Clearfix Element
  
  Berikut adalah contoh code nya :
  ***code css***
@@ -79,3 +79,50 @@ Pada pertemuan kali ini kita akan membahas bagaimana cara emembuat **Website Lay
 
 ***Dan berikut adalah hasil outputnya:***
 ![clearfix](img/clearfix.png)
+
+
+**Selanjutnya buatlah folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html dan file css dengan nama style.css**
+
+
+# 4). Membuat kerangka layout dengan Semantic Element
+
+**Contoh outputnya adalah sebagai berikut :**
+
+![membuat_layout_sederhana](img/layout_sederhana.png)
+
+
+**codingnya:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sderhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">about</a>
+            <a href="kontak.html">kontak</a>
+        </nav>
+        <section id="hero"></section>
+        <section id="wrapper">
+            <section id="main"></section>
+            <aside id="sidebar"></aside>
+        </section>
+        <footer>
+            <p>© 2022-Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
