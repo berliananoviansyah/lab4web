@@ -421,3 +421,118 @@ box img{
 </section>
 ```
 
+# 12). Menambahkan Content Artikel pada Main Content
+
+**Berikut adalah contoh coding HTML nya:**
+```html
+                <hr class="divider">
+                <article class="entry">
+                    <h2>First featurette heading</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="erorr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                        elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                        pretium ac.</p>
+                </article>
+                <hr class="divider">
+                <article class="entry">
+                    <h2>First featurette heading</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="erorr" class="right-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                        elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                        pretium ac.</p>
+                </article>
+```
+
+**Coding CSS:**
+```css
+/* entry */
+.entry{
+    margin: 15px 0;
+}
+.entry h2{
+    margin-bottom: 20px;
+}
+.entry img{
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.entry .right-img{
+    float: right;
+}
+```
+
+**Berikut adalah outputnya:**
+![membuat_artikel](img/artikelll.png)
+
+
+# Pertanyaan dan Tugas
+
+## 1). Tambahkan Layout untuk Menu About
+
+Tambahkan file di dalam folder lab4_layout dengan nama about.html, lalu masukan codingan sebagai berikut :
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="about">
+            <div class="row">
+                <img src="Bpict.jpeg" title="Berlina Noviansyah" alt="Berliana" width="200px
+                " class="image-circle" style="float: left; border: 2px solid black;">
+                <h1>Berliana Noviansyah</h1>
+                <p>Nama saya Berliana Noviansyah, Saya adalah seorang mahasiswa di Universitas Pelita Bangsa, Program Studi Teknik Informatika. Saya lahir di Bekasi, 06 September 2002.</p>
+            </div>
+        </section>
+        <footer>
+            <p style="text-align: center;">@BERLIANA</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+**Code CSS:**
+```css
+/* About Panel */
+#about{
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#about h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+#about p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 15px;
+```
+
+**Dengan Hasil sebagai berikut:**
+
+![membuat_layout_about](img/about.png)
