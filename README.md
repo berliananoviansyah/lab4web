@@ -585,7 +585,7 @@ Buat file html baru dengan nama contact.html dan buat form yang berisi nama, ema
 **Coding CSS**
 ```css
 /* Kontak Panel */
-#Kontak
+#Kontak{
     background-color: #e4e4e5;
     padding: 20px 20px;
     margin-bottom: 20px;
@@ -598,7 +598,6 @@ Buat file html baru dengan nama contact.html dan buat form yang berisi nama, ema
     box-sizing: border-box;
     font-size: 15px;
     margin-bottom: 20px;
-    
 }
 button{
     font-size: 15px;
@@ -612,3 +611,9 @@ button:hover{
     opacity: 0,9;
     background-color: #1f5faa;
 }
+```
+
+
+**Dengan hasil sebagai berikut**
+
+![memebuat_layout_contact](img/contact.png)
