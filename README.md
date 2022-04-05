@@ -204,3 +204,42 @@ nav a.active,
 nav a:hover{
     background-color: plum;
 ```
+
+
+# 7). Membuat Hero Panel
+
+**Codingnya CSS nya adalah sebagai berikut:**
+```css
+/* Hero Panel */
+#hero{
+    background-color: thistle;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#hero h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#hero p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+```
+
+**Coding html nya:**
+```html
+ <section id="hero">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                pretium ac.</p>
+                <a href="home.html" class="btn btn-large">Learn More >></a>
+        </section>
+```
+
+**Dan dengan hasil output sebagai berikut:**
+![membuat_heropanel](img/heropanel.png)
+
+
