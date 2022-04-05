@@ -470,7 +470,7 @@ box img{
 
 # Pertanyaan dan Tugas
 
-## 1). Tambahkan Layout untuk Menu About
+# 1). Tambahkan Layout untuk Menu About
 
 Tambahkan file di dalam folder lab4_layout dengan nama about.html, lalu masukan codingan sebagai berikut :
 ```html
@@ -536,3 +536,79 @@ Tambahkan file di dalam folder lab4_layout dengan nama about.html, lalu masukan 
 **Dengan Hasil sebagai berikut:**
 
 ![membuat_layout_about](img/about.png)
+
+
+# 2). Tambahkan Layout yang Berisi Menu Contact
+
+Buat file html baru dengan nama contact.html dan buat form yang berisi nama, email, message, dll.
+
+**Berikut adalah contoh coding pada HTML**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="kontak">
+            <div class="login">
+               <input type="text" placeholder="Your Name" class="input">
+               <input type="text" placeholder="Your Email" class="input">
+            </div>
+            <div class="subject">
+                <input type="text" placeholder="Subject" class="input"> 
+            </div>
+            <div class="msg">
+                <textarea name="Message" id="Message" cols="35" rows="10" class="area" class="input" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </section>
+    </div>
+</body>
+</html>
+```
+
+**Coding CSS**
+```css
+/* Kontak Panel */
+#Kontak
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.input,
+.msg, .area{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+button{
+    font-size: 15px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8px;
+}
+button:hover{
+    opacity: 0,9;
+    background-color: #1f5faa;
+}
